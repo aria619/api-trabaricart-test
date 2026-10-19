@@ -1,0 +1,60 @@
+
+{
+  "dashboard": [
+    {
+      "id": 1,
+      "activeVehicles": 48,
+      "inactiveVehicles": 12,
+      "pendingRequests": 8,
+      "todayRequests": 20
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "fullName": "علی رضایی",
+      "phone": "09123456789",
+      "status": "active",
+      "vehicleId": 101
+    },
+    {
+      "id": 2,
+      "fullName": "محمد احمدی",
+      "phone": "09123456780",
+      "status": "inactive",
+      "vehicleId": 102
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 101,
+      "plateNumber": "12الف345",
+      "type": "truck",
+      "status": "active"
+    },
+    {
+      "id": 102,
+      "plateNumber": "67ب890",
+      "type": "van",
+      "status": "inactive"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "driverId": 1,
+      "status": "pending",
+      "origin": "تهران",
+      "destination": "اصفهان",
+      "date": "2026-10-19"
+    },
+    {
+      "id": 2,
+      "driverId": 2,
+      "status": "approved",
+      "origin": "شیراز",
+      "destination": "تهران",
+      "date": "2026-10-19"
+    }
+  ]
+}
