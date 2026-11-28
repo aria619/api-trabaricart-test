@@ -26,20 +26,39 @@
     }
   ],
   "vehicles": [
-    {
-      "id": 101,
-      "name": "سمند سفید",
-      "plateNumber": "11 85115",
-      "type": "car",
-      "status": "active"
-    },
-    {
-      "id": 102,
-      "name": "ون سفید",
-      "plateNumber": "67ب890",
-      "type": "van",
-      "status": "inactive"
-    }
+     {
+    "id": 101,
+    "name": "سمند",
+    "plateNumber": "11 85115",
+    "type": "car",
+    "status": "active",
+    "model": 1399,
+    "color": "سفید",
+    "mileage": 36500,
+    "insuranceExpiry": "1405/12/20"
+  },
+  {
+    "id": 102,
+    "name": "پژو پارس",
+    "plateNumber": "22 192 ع 25",
+    "type": "car",
+    "status": "inactive",
+    "model": 1401,
+    "color": "مشکی",
+    "mileage": 58000,
+    "insuranceExpiry": "1405/10/15"
+  },
+  {
+    "id": 103,
+    "name": "وانت آریسان",
+    "plateNumber": "45 678 ب 12",
+    "type": "pickup",
+    "status": "active",
+    "model": 1402,
+    "color": "نقره‌ای",
+    "mileage": 42000,
+    "insuranceExpiry": "1406/02/10"
+  }
   ],
   "requests": [
     {
