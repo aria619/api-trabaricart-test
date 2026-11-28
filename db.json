@@ -28,18 +28,20 @@
   "vehicles": [
     {
       "id": 101,
-      "plateNumber": "12الف345",
-      "type": "truck",
+      "name": "سمند سفید",
+      "plateNumber": "11 85115",
+      "type": "car",
       "status": "active"
     },
     {
       "id": 102,
+      "name": "ون سفید",
       "plateNumber": "67ب890",
       "type": "van",
       "status": "inactive"
     }
   ],
- "requests": [
+  "requests": [
     {
       "id": 1001,
       "requesterName": "علی رضایی",
@@ -48,16 +50,8 @@
       "vehicleType": "تریلی",
       "date": "1404/04/08",
       "status": "در انتظار",
-      "vehicle": {
-        "id": 101,
-        "name": "سمند سفید",
-        "plateNumber": "11 85115"
-      },
-      "driver": {
-        "id": 1,
-        "fullName": "علی مرادی",
-        "phone": "09125052654"
-      },
+      "vehicleId": 101,
+      "driverId": 1,
       "departureDate": "1404/08/11",
       "departureTime": "16:30",
       "returnDate": "1404/08/11",
@@ -72,19 +66,18 @@
         },
         {
           "id": 2,
-          "fullName": "علی رضایی",
-          "phone": "09126549896",
+          "fullName": "محمد احمدی",
+          "phone": "09126549897",
           "address": "صدا و سیما سمنان"
         },
         {
           "id": 3,
-          "fullName": "علی رضایی",
-          "phone": "09126549896",
-          "address": "صدا و سیما سمنان"
+          "fullName": "رضا محمدی",
+          "phone": "09126549898",
+          "address": "سمنان"
         }
       ],
       "description": "این درخواست برای انجام مأموریت و راه‌اندازی فرستنده ثبت شده است."
     }
-  ],
- 
+  ]
 }
